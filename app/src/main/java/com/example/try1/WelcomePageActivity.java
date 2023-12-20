@@ -37,12 +37,12 @@ public class WelcomePageActivity extends AppCompatActivity {
     }
 
     public void openLoginPage(){
-        Intent goToLoginPage = new Intent(this, logAct.class);
+        Intent goToLoginPage = new Intent(this, LoginPageActivity.class);
                 startActivity(goToLoginPage);
     }
 
     public void openRegistrationPage(){
-        Intent goToRegistrationPage=  new Intent(this, regAct.class);
+        Intent goToRegistrationPage=  new Intent(this, RegistrationPageActivity.class);
         startActivity(goToRegistrationPage);
     }
 }

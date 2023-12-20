@@ -7,22 +7,22 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import java.util.Objects;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.annotation.NonNull;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class regAct extends AppCompatActivity {
+public class RegistrationPageActivity extends AppCompatActivity {
     EditText registerName,registerEmail,registerUsername,registerPassword;
     TextView loginRedirectText;
     Button registerButton;
     FirebaseDatabase database;
     DatabaseReference reference;
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
 
@@ -44,11 +44,11 @@ public class regAct extends AppCompatActivity {
                 String username = registerUsername.getText().toString();
                 String password = registerPassword.getText().toString();
 
-                UserData userData = new UserData(name,email,username,password);
-                reference.child(name).setValue(userData);
+                Helper helper = new Helper(name, email, username, password);
+                reference.child(name).setValue(helper);
 
-                Toast.makeText(regAct.this,"Сіз сәтті тіркелдіңіз!",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(regAct.this, logAct.class);
+                Toast.makeText(RegistrationPageActivity.this,"Сіз сәтті тіркелдіңіз!",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(RegistrationPageActivity.this, LoginPageActivity.class);
                 startActivity(intent);
             }
         });
@@ -56,7 +56,7 @@ public class regAct extends AppCompatActivity {
         loginRedirectText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(regAct.this, logAct.class);
+                Intent intent = new Intent(RegistrationPageActivity.this, LoginPageActivity.class);
                 startActivity(intent);
             }
         });

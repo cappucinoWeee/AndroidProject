@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/back">
+    android:background="@drawable/b"
+    tools:context=".LoginPageActivity">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,7 +21,7 @@
             android:orientation="vertical"
             android:layout_gravity="center_horizontal"
             android:padding="20dp"
-            android:background="@drawable/blue_border">
+            android:background="@drawable/blue_background">
 
             <TextView
                 android:layout_width="match_parent"
@@ -35,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/login_username"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/blue_background"
                 android:layout_margin="4dp"
                 android:padding="8dp"
                 android:hint="пайдаланушы аты"
@@ -45,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:id="@+id/login_password"
-                android:background="@drawable/blue_border"
+                android:background="@drawable/blue_background"
                 android:layout_margin="4dp"
                 android:padding="8dp"
                 android:hint="құпия сөз"

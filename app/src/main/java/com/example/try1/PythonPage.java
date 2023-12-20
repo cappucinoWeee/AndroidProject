@@ -29,7 +29,7 @@ public class PythonPage extends AppCompatActivity {
         });
     }
         public void openPythonCourse() {
-            Intent goToPythonCourse1Page = new Intent(this, IntroPageActivity.class);
+            Intent goToPythonCourse1Page = new Intent(this, PythonCourse1.class);
             startActivity(goToPythonCourse1Page);
         }
 }

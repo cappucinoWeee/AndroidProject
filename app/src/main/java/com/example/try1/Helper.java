@@ -4,6 +4,7 @@ public class Helper {
     String user, email,username,password;
 
     public Helper() {
+        //Some changes
     }
     public Helper(String user, String email, String username, String password) {
         this.user = user;

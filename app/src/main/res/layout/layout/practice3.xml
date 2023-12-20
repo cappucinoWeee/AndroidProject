@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lblue"
+    tools:context=".Practice_3">
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/vector"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="340dp"
+        android:layout_height="554dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="18dp"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="189dp"
+        android:layout_height="96dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="577dp"
+        app:srcCompat="@drawable/group" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="167dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="578dp"
+        android:text="сабак аякталды"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="186dp"
+        android:layout_height="133dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="447dp"
+        app:srcCompat="@drawable/group" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="481dp"
+        android:text="Құттықтаймын, соңына жеткеніңіз үшін" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="420dp"
+        app:srcCompat="@drawable/group1" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="586dp"
+        app:srcCompat="@drawable/group1" />
+
+</RelativeLayout>

@@ -84,4 +84,5 @@
         android:text="Тіл-адамдар қатынас құралы"
         android:textColor="@color/python_page_text"
         android:textStyle="bold" />
+
 </RelativeLayout>

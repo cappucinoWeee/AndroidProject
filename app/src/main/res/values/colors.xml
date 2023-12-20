@@ -16,6 +16,16 @@
     <color name="green">#0AC824</color>
     <color name ="light_blue"> #BFE1FA</color>
     <color name = "purple">#B174FF</color>
+    <color name="blackq">#FF000000</color>
+    <color name="whiteq">#FFFFFFFF</color>
+    <color name="blueq">#0000FF</color>
+    <color name="purpleq">#B68BEE</color>
+    <color name="whiteblue">#B9DDF6</color>
+    <color name="lightblue">#3AA9C1</color>
+    <color name="pinkq">#E7B8B8</color>
+    <color name="lblue">#BFE1FA</color>
+    <color name="wh">#FFC1B9B7</color>
+    <color name="bg">#FF51909A</color>
 
 
 

@@ -73,7 +73,6 @@ public class PythonPractice1 extends AppCompatActivity {
         public void MoveNextLesson(){
             Intent nextLesson = new Intent(this, PythonPractice2.class);
             startActivity(nextLesson);
-
         }
 
     }

@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PythonPractice1"
+            android:name=".PythonClass1Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -40,6 +40,16 @@
                 android:value="" />
 
         </activity>
+
+        <activity
+            android:name=".PythonPractice1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        </activity>
+
         <activity
             android:name=".PythonPractice2"
             android:exported="false">
@@ -104,6 +114,16 @@
                 android:value="" />
 
         </activity>
+        <activity
+            android:name=".Practice_3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        </activity>
+
+
         <activity
             android:name=".LessonActivity"
             android:exported="false">

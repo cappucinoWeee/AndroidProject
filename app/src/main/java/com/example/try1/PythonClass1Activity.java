@@ -29,5 +29,6 @@ helpKitten_button.setOnClickListener(new View.OnClickListener() {
     }
     public void openPythonPractice1(){
         Intent goToPythonPractice1 = new Intent(this, PythonPractice1.class);
+        startActivity(goToPythonPractice1);
     }
 }

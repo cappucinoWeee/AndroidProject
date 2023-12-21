@@ -157,6 +157,20 @@
                 android:value="" />
 
         </activity>
+
+        <activity
+            android:name=".PythonPractice2_1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+
+
+
+
+
     </application>
 
 </manifest>

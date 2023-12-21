@@ -4,7 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name = "layout">#FBF0EA</color>
     <color name = "registration">#6F1BDD</color>
-    <color name = "python_course_background">#A8BFE1</color>
+    <color name = "python_course_background">#79A0DA</color>
     <color name = "python_page_text">#4575D3</color>
     <color name = "blue_button">#4575D3</color>
     <color name = "python_class1_back">#F498C1</color>
@@ -26,6 +26,7 @@
     <color name="lblue">#BFE1FA</color>
     <color name="wh">#FFC1B9B7</color>
     <color name="bg">#FF51909A</color>
+    <color name = "grey">#A3A3A3</color>
 
 
 

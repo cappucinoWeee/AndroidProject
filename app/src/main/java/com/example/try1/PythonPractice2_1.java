@@ -8,26 +8,30 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PythonPractice2 extends AppCompatActivity {
+public class PythonPractice2_1 extends AppCompatActivity {
 
     private ImageView nextButton;
 
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.python_practical2);
+        setContentView(R.layout.python_practical2_1);
 
-      nextButton = (ImageView)findViewById(R.id.nextButton);
 
-       nextButton.setOnClickListener(new View.OnClickListener() {
+        nextButton = findViewById(R.id.nextButton);
+
+        nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openPythonPractice2_1();
+                MoveNextLesson();
             }
         });
     }
-    public void openPythonPractice2_1(){
-        Intent goToPythonPractice2_1 = new Intent(this, PythonPractice2_1.class);
-        startActivity(goToPythonPractice2_1);
+
+        public void MoveNextLesson(){
+            Intent nextLesson = new Intent(this, Practice_3.class);
+            startActivity(nextLesson);
+        }
+
     }
-}
+

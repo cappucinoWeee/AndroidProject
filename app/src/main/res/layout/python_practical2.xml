@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_blue">
+    android:background="@color/grey">
 
     <ImageView
         android:id="@+id/imageView32"
@@ -54,19 +54,6 @@
         app:layout_constraintVertical_bias="0.412"
         app:srcCompat="@drawable/math_board" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="145dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="124dp"
-        android:layout_marginBottom="510dp"
-        android:text="'Дәрежееге шығару:'  Pyhton:**"
-        android:textSize="16dp"
-        android:textStyle="bold" />
-
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="340dp"
@@ -74,24 +61,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="192dp"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412"
-        app:srcCompat="@drawable/math_board" />
-
-    <ImageView
-        android:id="@+id/imageView37"
-        android:layout_width="340dp"
-        android:layout_height="270dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="172dp"
         android:layout_marginEnd="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -131,8 +102,9 @@
         android:layout_height="68dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="102dp"
-        android:layout_marginTop="283dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="281dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.54"
@@ -140,20 +112,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.45"
         app:srcCompat="@drawable/maths" />
-
-    <ImageView
-        android:id="@+id/nextButton"
-        android:layout_width="278dp"
-        android:layout_height="161dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-112dp"
-        android:layout_marginEnd="245dp"
-        android:layout_marginBottom="34dp"
-        app:srcCompat="@drawable/cloud"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="474dp" />
 
     <ImageView
         android:id="@+id/imageView36"
@@ -184,20 +142,6 @@
         tools:layout_editor_absoluteY="474dp" />
 
     <ImageView
-        android:id="@+id/imageView39"
-        android:layout_width="234dp"
-        android:layout_height="151dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="234dp"
-        android:layout_marginEnd="-59dp"
-        android:layout_marginBottom="400dp"
-        app:srcCompat="@drawable/cloud"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="474dp" />
-
-    <ImageView
         android:id="@+id/imageView41"
         android:layout_width="234dp"
         android:layout_height="151dp"
@@ -212,7 +156,21 @@
         tools:layout_editor_absoluteY="474dp" />
 
     <ImageView
-        android:id="@+id/imageView31"
+        android:id="@+id/imageView57"
+        android:layout_width="163dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-68dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="414dp"
+        app:srcCompat="@drawable/cloud"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <ImageView
+        android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -234,94 +192,54 @@
         android:textColor="@color/python_class1_text"
         android:textStyle="bold|italic" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="290dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginTop="550dp"
-        android:text="Арифметикалық Операторлар"
-        android:textColor="@color/python_class1_text"
-        android:textSize="19dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="262dp"
+        android:layout_height="294dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginBottom="589dp"
-        android:text="'+' Python: + "
-        android:textSize="16dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="130dp"
-        android:layout_marginBottom="556dp"
-        android:text="'-'  Pyhton: -"
-        android:textSize="16dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="145dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="121dp"
-        android:layout_marginBottom="295dp"
-        android:text="'Қалдықты қайтару:'  Pyhton:%"
-        android:textSize="16dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="145dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="123dp"
-        android:layout_marginBottom="266dp"
-        android:text="'Бөлу:'  Pyhton:   /"
-        android:textSize="16dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView18"
-        android:layout_width="145dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="124dp"
-        android:layout_marginBottom="219dp"
-        android:text="'Жуықтап бөлу:'  Pyhton:   //"
-        android:textSize="16dp"
-        android:textStyle="bold" />
+        android:layout_marginStart="-15dp"
+        android:layout_marginBottom="-18dp"
+        app:srcCompat="@drawable/math_manster" />
 
     <ImageView
-        android:id="@+id/imageView26"
+        android:id="@+id/imageView39"
+        android:layout_width="163dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="284dp"
+        app:srcCompat="@drawable/fly" />
+
+    <ImageView
+        android:id="@+id/image"
         android:layout_width="wrap_content"
-        android:layout_height="149dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="98dp"
+        app:srcCompat="@drawable/talk_cloud" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="80dp"
-        app:srcCompat="@drawable/math" />
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/math_label" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="183dp"
+        app:srcCompat="@drawable/math_text01" />
 
     <!--    <TextView-->
 <!--        android:id="@+id/textView7"-->
@@ -336,20 +254,7 @@
 <!--        android:textSize="12dp"-->
 <!--        android:textStyle="bold|italic" />-->
 
-    <ImageView
-        android:id="@+id/imageView35"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="-57dp"
-        android:layout_marginTop="-16dp"
-        android:layout_marginEnd="-9dp"
-        app:srcCompat="@drawable/header" />
-
-<!--    <TextView-->
+    <!--    <TextView-->
 <!--        android:id="@+id/textView7"-->
 <!--        android:layout_width="161dp"-->
 <!--        android:layout_height="wrap_content"-->

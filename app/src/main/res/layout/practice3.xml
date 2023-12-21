@@ -20,38 +20,14 @@
         tools:layout_editor_absoluteY="634dp" />
 
     <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="340dp"
-        android:layout_height="554dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="18dp"
-        app:srcCompat="@drawable/img" />
-
-    <ImageView
         android:id="@+id/imageView27"
-        android:layout_width="189dp"
-        android:layout_height="96dp"
+        android:layout_width="221dp"
+        android:layout_height="110dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="577dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="503dp"
         app:srcCompat="@drawable/group" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="167dp"
-        android:layout_height="47dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="98dp"
-        android:layout_marginBottom="578dp"
-        android:text="сабак аякталды"
-        android:textSize="20dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="312dp" />
 
     <ImageView
         android:id="@+id/imageView28"
@@ -62,16 +38,6 @@
         android:layout_marginEnd="9dp"
         android:layout_marginBottom="447dp"
         app:srcCompat="@drawable/group" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="176dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="481dp"
-        android:text="Құттықтаймын, соңына жеткеніңіз үшін" />
 
     <ImageView
         android:id="@+id/imageView31"
@@ -92,5 +58,56 @@
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="586dp"
         app:srcCompat="@drawable/group1" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="186dp"
+        android:layout_height="184dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="414dp"
+        app:srcCompat="@drawable/like_image" />
+
+    <ImageView
+        android:id="@+id/imageView60"
+        android:layout_width="337dp"
+        android:layout_height="389dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-56dp"
+        android:layout_marginBottom="-41dp"
+        app:srcCompat="@drawable/like_robot" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="194dp"
+        app:srcCompat="@drawable/finish_text" />
+
+    <ImageView
+        android:id="@+id/imageView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="214dp"
+        app:srcCompat="@drawable/talk_cloud" />
+
+    <ImageView
+        android:id="@+id/imageView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="292dp"
+        app:srcCompat="@drawable/text03" />
 
 </RelativeLayout>
